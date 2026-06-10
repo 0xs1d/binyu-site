@@ -109,38 +109,41 @@ h1, .h1, h2, .h2 {
 }
 /*--------------------------new----------------------*/
 /*--------------------------new----------------------*/
+/*--------------------------new----------------------*/
 /* Strong, visible black dividers for all sections on sepia background */
 
-/* 1. Fix native horizontal rules (<hr> or *** in Markdown) */
+/* 1. Global Rule: Turn on thick black lines under ALL H2 headings across the site */
+h2, .h2 {
+  border-bottom: 3px solid #000000 !important;
+  padding-bottom: 0.5rem !important;
+  margin-bottom: 1.5rem !important;
+  margin-top: 2rem !important;
+}
+
+/* 2. Exception Rule: Turn OFF lines for headings inside your profile column container */
+.columns h2, .column h2, .two-column-container h2 {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 1rem !important;
+  margin-top: 0 !important;
+}
+
+/* 3. Force Markdown rules (***) to render as solid black lines */
 hr, .rule, .quarto-hr, .section-rule {
   border: none !important;
   height: 3px !important;
   background-color: #000000 !important;
-  opacity: 1 !important; /* CRITICAL: Bootstrap overrides opacity to 0.25 */
-  margin: 2rem 0 !important;
+  color: #000000 !important;
+  opacity: 1 !important; /* CRITICAL: Cancels out default Bootstrap transparency */
+  margin: 2.5rem 0 !important;
 }
 
-/* 2. Utility divider class you can type manually in HTML/Markdown */
+/* 4. Utility divider class for custom placement */
 .divider {
-  height: 3px;
-  background-color: #000000;
-  opacity: 1;
-  margin: 2rem 0;
-  width: 100%;
-}
-
-/* 3. Safe Heading Dividers (Applies ONLY to standalone page headings) */
-.quarto-body main h1:not(.title),
-.quarto-body main h2,
-.quarto-body main h3 {
-  border-bottom: 3px solid #000000 !important;
-  padding-bottom: 0.5rem !important;
-  margin-bottom: 1.5rem !important;
-}
-
-/* 4. Prevent columns or nested grids from getting broken by borders */
-.columns h1, .columns h2, .columns h3,
-.two-column-container h1, .two-column-container h2, .two-column-container h3 {
-  border-bottom: none !important;
-  padding-bottom: 0 !important;
+  display: block !important;
+  height: 3px !important;
+  background-color: #000000 !important;
+  opacity: 1 !important;
+  margin: 2.5rem 0 !important;
+  width: 100% !important;
 }
