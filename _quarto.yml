@@ -3,7 +3,7 @@ project:
 
 website:
   site-url: https://binyu.stat.berkeley.edu
-  title: "Bin Yu"
+  title: "Sidharth Gupta"
   navbar:
     right:
       - href: index.qmd
@@ -21,7 +21,7 @@ website:
       - href: teaching/index.qmd
         text: Teaching
   page-footer:
-    center: "&copy; 2025 Bin Yu"
+    center: "&copy; 2026 Sidharth Gupta"
 
 format:
   html:
