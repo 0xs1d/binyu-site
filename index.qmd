@@ -36,17 +36,17 @@ Kaggle: [Kaggle Profile](https://www.kaggle.com/s1drtx "Go to Sidharth Kaggle") 
 
 ## About Me 
 
-Key areas of interest: 
-• Big Data Analytics & Business Intelligence 
-• Machine Learning & Predictive Modeling 
-• Generative AI & Applied AI Systems 
+Key areas of interest: \
+• Big Data Analytics & Business Intelligence \
+• Machine Learning & Predictive Modeling \
+• Generative AI & Applied AI Systems \
 
 Technical Skills: SQL • Python • Power BI • Snowflake • Apache Spark • Generative AI \ 
 
-Highlights: 
-• Microsoft & Google Certified in Data Analytics 
-• Published IEEE AI research author
-• Experience across analytics, AI research, and industry projects
+Highlights: \
+• Microsoft & Google Certified in Data Analytics \
+• Published IEEE AI research author \
+• Experience across analytics, AI research, and industry projects \
 
 I am interested in opportunities where data, analytics, and AI can be leveraged to solve complex problems, support data-driven decision-making, and create measurable impact.
 
